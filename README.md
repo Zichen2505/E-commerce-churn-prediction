@@ -26,6 +26,6 @@ Therefore, churn analysis is not just about predicting who leaves—it is about 
 
 Gómez-Vargas, N., Maldonado, S., & Vairetti, C. (2023). A predict-and-optimize approach to profit-driven churn prevention. arXiv. https://doi.org/10.48550/arXiv.2310.07047
 
-Imani, M., & Arabnia, H. (2025). Customer churn prediction: A systematic review of recent advances, trends, and challenges in machine learning and deep learning. Big Data and Cognitive Computing, 7(3), 105. https://doi.org/10.3390/bdcc7030105
+Imani, M., & Arabnia, H. (2025). Customer churn prediction: A systematic review of recent advances, trends, and challenges in machine learning and deep learning. Big Data and Cognitive Computing, 7(3), 105. https://www.mdpi.com/2504-4990/7/3/105
 
 Rudd, D. H., Huo, H., & Xu, G. (2023). Improved churn causal analysis through restrained high-dimensional feature space effects in financial institutions. arXiv. https://doi.org/10.48550/arXiv.2304.11503
