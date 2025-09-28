@@ -1,35 +1,31 @@
-📖 Business Background and the Cost of Churn
-1. Business Background
+**🔎 Background and Rationale for Churn Analysis**
 
-In today’s highly competitive e-commerce environment, customer acquisition costs (CAC) are rising steadily due to increasing advertising prices and the saturation of digital channels. At the same time, companies already have a base of customers who have previously purchased and demonstrated trust in the brand.
+In modern e-commerce, companies face rising customer acquisition costs (CAC) due to competitive digital advertising markets and saturated sales channels. At the same time, firms already possess a base of customers who have purchased before and therefore demonstrate established trust and familiarity with the brand.
 
-Compared to cultivating a brand-new customer, re-engaging an existing one is often far more efficient and profitable. Therefore, rather than focusing exclusively on acquisition, many firms are shifting attention to customer retention and win-back strategies.
+Compared with acquiring new customers, retaining or winning back existing customers is significantly more cost-effective and yields higher profitability. For example, research shows that acquiring a new customer can cost 5–7 times more than retaining an existing one (Rudd, Huo, & Xu, 2023). A systematic review of churn studies between 2020 and 2024 further highlights that improving retention rates by just 5–10% can increase profits by 25–95% (Imani & Arabnia, 2025).
 
-This sets up a practical and valuable business question:
+Thus, churn prevention and customer win-back strategies represent high-leverage opportunities for firms: by focusing resources on customers most likely to leave, companies can protect revenue and extend Customer Lifetime Value (CLV).
 
-👉 Given a limited budget (e.g., $100,000), how can a company allocate resources to maximize the number of high-value customers it can retain or win back?
+**Why Churn Analysis Matters**
 
-Answering this question requires not only predicting churn probabilities but also optimizing budget allocation—choosing the right subset of customers to target for retention, such that the expected return is maximized under financial constraints.
+While recognizing the importance of retention, businesses must still address a practical challenge: budgets are limited. Marketing teams cannot afford to target every at-risk customer with retention offers.
 
-2. The Cost of Churn and Why Retention Matters
+This creates a data science optimization problem:
 
-A large body of research and industry evidence consistently shows that retaining existing customers is significantly cheaper and more profitable than acquiring new ones:
+    Prediction – Estimate churn probabilities and future value (CLV) for each customer.
 
-Customer acquisition is 5–25x more expensive than retention.
+    Cost modeling – Estimate the cost of re-engaging each customer (discounts, outreach, incentives).
 
-    Source: Reichheld & Sasser, Harvard Business Review (1990); Optimove Research (2023)【Optimove†source】.
+    Optimization – Under a fixed budget (e.g., $100k), select the subset of customers that maximizes expected retained value.
 
-Increasing customer retention rates by just 5% can increase profits by 25% to 95%.
+Recent research supports this integrated “predict-and-optimize” approach. Gómez-Vargas, Maldonado, & Vairetti (2023) demonstrate that combining churn prediction with optimization leads to superior decision-making compared to ranking customers by churn probability alone.
 
-    Source: Reichheld & Schefter, Harvard Business Review (2000)【HBR†source】.
+Therefore, churn analysis is not just about predicting who leaves—it is about making evidence-based, resource-constrained decisions to maximize long-term profitability. This dual role makes churn projects highly relevant both technically and strategically.
 
-On average, it costs 5–7x more to acquire a new customer than to retain an existing one.
+📚 References
 
-    Source: Forbes Business Council (2022)【Forbes†source】.
+Gómez-Vargas, N., Maldonado, S., & Vairetti, C. (2023). A predict-and-optimize approach to profit-driven churn prevention. arXiv. https://doi.org/10.48550/arXiv.2310.07047
 
+Imani, M., & Arabnia, H. (2025). Customer churn prediction: A systematic review of recent advances, trends, and challenges in machine learning and deep learning. Big Data and Cognitive Computing, 7(3), 105. https://doi.org/10.3390/bdcc7030105
 
-Academic evidence:
-
-Zhang (2021) notes that acquisition costs are often 5–8 times higher than retention costs【Zhang 2021†source】.
-
-Ascarza et al. (2016) highlight in a telecom case that proactive churn prevention strategies have measurable financial benefits【HBS†source】.
+Rudd, D. H., Huo, H., & Xu, G. (2023). Improved churn causal analysis through restrained high-dimensional feature space effects in financial institutions. arXiv. https://doi.org/10.48550/arXiv.2304.11503
